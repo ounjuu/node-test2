@@ -1,0 +1,51 @@
+/* 전체 테이블 스타일 */
+.userlistTable table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* 테이블 헤더 스타일 */
+.userlistTable thead {
+  background-color: #cc8cee;
+  color: white;
+  font-weight: bold;
+}
+
+.userlistTable th,
+.userlistTable td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+/* 테이블 행 스타일 */
+.userlistTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.userlistTable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* 셀 내부 div 스타일 */
+.userlistTable td div {
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* 반응형: 화면이 작아질 때 */
+@media screen and (max-width: 600px) {
+  .userlistTable table {
+    font-size: 14px;
+  }
+  .userlistTable th,
+  .userlistTable td {
+    padding: 8px;
+  }
+}

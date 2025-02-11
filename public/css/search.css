@@ -1,0 +1,72 @@
+/* 기본 스타일 */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* 제목 스타일 */
+h2 {
+  font-size: 24px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* 테이블 감싸는 div 스타일 */
+.tableWrap {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* 테이블 스타일 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 테이블 헤더 스타일 */
+thead {
+  background-color: #007bff;
+  color: white;
+}
+
+th {
+  padding: 12px;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+}
+
+/* 테이블 본문 스타일 */
+td {
+  padding: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+/* 테이블 줄 간격 */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* 검색 결과 강조 */
+.search-highlight {
+  font-weight: bold;
+  color: #d9534f;
+  background-color: #ffebee;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
