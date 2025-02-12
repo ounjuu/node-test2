@@ -19,9 +19,10 @@ let data = "";
 let query = "";
 
 app.get("/", (req, res) => {
-  res.render("main");
+  res.render("mainpage");
 });
 
+////여기는 20250211 실습
 // get 요청은 req.query
 app.get("/search", (req, res) => {
   query = req.query.user.toLowerCase(); // 검색어
@@ -41,6 +42,7 @@ app.post("/userlist", (req, res) => {
 app.get("/userinfo", (req, res) => {
   res.json(data);
 });
+////여기까지는 20250211 실습
 
 // 서버 띄울때 포트 정보 셋팅 및 처음 실행 시 필요한 기능 수행 가능
 app.listen(port, () => {
